@@ -9,6 +9,8 @@ sync/
 installation.yaml
 user.yaml
 *.custom.yaml
+!default.custom.yaml
+!squirrel.custom.yaml
 !others/**/*.custom.yaml
 
 custom_phrase_double.txt
