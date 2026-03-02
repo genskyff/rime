@@ -5,6 +5,8 @@ patch:
      # 切换候选项
     - { when: has_menu, accept: Tab, send: Down }
     - { when: has_menu, accept: Shift+Tab, send: Up }
+    - { when: has_menu, accept: Tab, send: Right }
+    - { when: has_menu, accept: Shift+Tab, send: Left }
     # 翻页
     - { when: has_menu, accept: comma, send: Page_Up }
     - { when: has_menu, accept: period, send: Page_Down }
